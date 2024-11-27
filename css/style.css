@@ -1,9 +1,98 @@
-body {
-  background: goldenrod;
-}
-h1 {
-  margin: 10px;
-  border: 10px;
-  padding: 15px;
-  text-align: center;
-}
+* {
+              border: none;
+              font-family: ¨Brush SCript MT, cursive;
+              }
+          body {
+              background: goldenrod;
+          }
+          h1 {
+              margin: 10px;
+              border: 0;
+              padding: 15px;
+              text-align: center;
+          }
+          h2 { 
+              text-align: center;
+              }
+          div {
+              margin: 5px auto;
+              border: 0;
+              padding: 10px;
+              text-align: center;
+          } 
+              
+          .overview {
+              margin: 10px auto;
+              padding: 15px;
+              border: none;
+              display: inline-block;
+              postion: absolute;
+              background: yellowgreen;
+                  
+
+              }
+          .ingredients {
+              background: #548CAB;
+              text-align: justify;
+              }
+          
+          img {
+              width: 450px;
+              height: 350px;
+              display: inline-blcok;
+              position: static;
+              margin-left: 5px;
+              border: 3px solid black;
+          }
+          
+          /*recipe-card {
+              width: ;
+              text-align: ;
+              background: 
+              border: ;
+              
+          }
+          */
+          .directions {
+              color: navy;
+              text-align: justify;
+
+              }
+          .recipe-info {
+              display: inline-block;
+              position: relative;
+              width: 380px;
+              margin: 0;
+          }
+          ul {
+              padding: 10px;
+              margin: 5px auto;
+          }
+          li {
+              display: inline-block;
+              position: relative;
+          }
+          ul li h2 { 
+              font-size: 16px;
+              }
+          ol {
+              padding: 10px;
+              margin: 5px auto;
+          }
+
+          ol li {
+              display: inline-block;
+              position: relative;
+          }
+          ol li h2 { 
+              font-size: 16px;
+              }
+          .footer {
+        margin-left: 20px;
+        padding: 15px 10px;
+        color: black;
+        text-align: center;
+    }
+          ul li a {
+              margin-left: 10px;
+              }
