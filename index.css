@@ -1,0 +1,47 @@
+        * { 
+            border: none;
+            font-family: ¨Brush SCript MT, cursive;
+            }
+      body {
+        background: goldenrod;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+      }
+        ul li {
+            color: white;
+            list-style-type: none;
+            margin-top: 20px;
+        }
+        ul li a {
+            margin-left: 10px;
+        }
+      div {
+        margin: 5px auto;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        display: block;
+        position: static;
+      }
+      div.card {
+        width: 800px;
+        height: auto;
+    }
+      .introduction {
+        background-color: #476072;
+        font-size: 30px;
+        color: hsla(246, 64%, 15%, 0.8);
+      }
+      .content {
+        background-color: yellowgreen;
+          color: hsla(246, 64%, 15%, 0.8);
+      }
+      .footer {
+        margin-left: 20px;
+        padding: 15px 10px;
+        color: black;
+        text-align: center;
+    }
+         
